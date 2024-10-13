@@ -7,12 +7,15 @@
 This project implements a License Plate Recognition (LPR) system using machine learning and image processing techniques. The goal of the system is to detect and recognize characters on vehicle license plates from an image input. The system is developed using Python and utilizes libraries such as `scikit-image`, `scikit-learn`, and `numpy`.
 
 ## Demo
-This is a given picture of Audi RS5.
+This is a given picture of Audi RS5:
 ![car4](https://github.com/user-attachments/assets/0d736f25-d2aa-418d-8697-7ca0f98d819f)
+
 This project will first convert the picture to gray scale and binary image:
 ![70141728808374_ pic](https://github.com/user-attachments/assets/5b81b0d7-739f-484b-835c-7dfb742fa6a5)
+
 After correctly processing the image this project will find where is the license plate, draw a bounding box around the license plate:
 ![70181728808422_ pic](https://github.com/user-attachments/assets/219e28d4-d0c6-42ed-9362-e735c258cda3)
+
 Then it process the information on the License plate by extracting different characters and resize them to 20X20 pixels for a trained model to recognize the information, and lastly convert it to a string that is the license plate number of the car:
 <img width="563" alt="Screenshot 2024-10-13 at 15 37 26" src="https://github.com/user-attachments/assets/72a406e4-a887-479c-9dd8-7b3d125cc400">
 
