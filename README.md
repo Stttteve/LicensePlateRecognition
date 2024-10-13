@@ -54,7 +54,7 @@ To get started, clone the repository and install the necessary dependencies. Mak
 
 ## Usage
 
-**Before you run the program, make sure to download the image into your private repository, and change the path to the image to the correct path on your computer in lpr_image.py file.**
+**Before you run the program, make sure to download the image into your own directory, and change the path to the image to the correct path on your computer in lpr_image.py file.**
 
 Once you have installed the dependencies, you can start the program by running:
 
