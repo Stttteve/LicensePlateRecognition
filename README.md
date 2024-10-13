@@ -45,11 +45,11 @@ To get started, clone the repository and install the necessary dependencies. Mak
 
 3. Install the dependencies:
     ```bash
-  pip install numpy
-  pip install scikit-image
-  pip install matplotlib
-  pip install scikit-learn
-  pip install joblib
+    pip install numpy
+    pip install scikit-image
+    pip install matplotlib
+    pip install scikit-learn
+    pip install joblib
     ```
 
 ## Usage
