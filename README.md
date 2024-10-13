@@ -61,8 +61,7 @@ python char_prediction.py
 
 
 Project Structure
-plaintext
-Copy code
+
 license-plate-recognition/
 │
 ├── char_prediction.py        # Character recognition code (main entry point)
