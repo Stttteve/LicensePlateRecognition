@@ -15,7 +15,7 @@ letters = [
             'U', 'V', 'W', 'X', 'Y', 'Z'
         ]
 
-# read in training data from the folder "train'"
+# read in training data from the folder "train"
 def read_training_data(training_directory):
     image_data = []
     target_data = []
