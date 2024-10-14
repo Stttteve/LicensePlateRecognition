@@ -1,14 +1,12 @@
 import numpy as np
-from numpy.ma.core import resize
 from skimage.io import imread
 from skimage.filters import threshold_otsu
-from skimage.filters import threshold_local
 import matplotlib.pyplot as plt
 
 
 # desired_size = (1080,1920)
 
-car_image = imread("/Users/steventhesteve/license-plate-recognition/car.jpg", as_gray=True)
+car_image = imread("/Users/steventhesteve/license-plate-recognition/car4.jpg", as_gray=True)
 car_image = np.squeeze(car_image)
 
 # resized_car_image = resize(car_image, desired_size)
