@@ -1,8 +1,6 @@
 import os
-import segmentation
 import joblib
 from lpr_locate import characters
-
 from lpr_locate import column_list
 
 current_dir = os.path.dirname(os.path.realpath(__file__))
