@@ -5,7 +5,7 @@ from skimage.measure import regionprops
 import matplotlib.patches as patches
 import matplotlib.pyplot as plt
 import lpr_findConnected
-from lpr_findConnected import min_height
+
 
 license_plate = np.invert(lpr_findConnected.plate_like_objects[0])
 labelled_plate = measure.label(license_plate)
@@ -13,8 +13,7 @@ fig, (ax1) = plt.subplots(1)
 ax1.imshow(license_plate, cmap = "gray")
 
 
-#specify character dimension
-
+#specify character dimension to accurately extract the characters
 character_dimensions = (0.45*license_plate.shape[0], 0.8*license_plate.shape[0], 0.05*license_plate.shape[1],0.2*license_plate.shape[1])
 min1_height, max1_height, min1_width, max1_width = character_dimensions
 
