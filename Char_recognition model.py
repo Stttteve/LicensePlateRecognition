@@ -1,6 +1,5 @@
 import os
 import numpy as np
-from sklearn.metrics import accuracy_score
 from sklearn.svm import SVC
 from sklearn.model_selection import cross_val_score
 import joblib
