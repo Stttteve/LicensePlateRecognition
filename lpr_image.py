@@ -4,12 +4,10 @@ from skimage.filters import threshold_otsu
 import matplotlib.pyplot as plt
 
 
-# desired_size = (1080,1920)
 
 car_image = imread("/Users/steventhesteve/license-plate-recognition/car4.jpg", as_gray=True)
 car_image = np.squeeze(car_image)
 
-# resized_car_image = resize(car_image, desired_size)
 print(car_image.shape)
 
 gray_car_image = car_image*255
